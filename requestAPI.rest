@@ -1,0 +1,8 @@
+@baseURL = http://localhost:8000
+
+###
+# Requête pour obtenir la météo pour une ville
+GET {{baseURL}}/api/weather/forecast?city=Paris
+###
+GET {{baseURL}}/api/weather/forecast?city=Lyon
+
